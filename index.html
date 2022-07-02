@@ -8,5 +8,25 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Characters Counter</h1>
+    <p>Enter any text below:</p>
+
+    <form id="form" method="post">
+      <textarea id="textarea"></textarea>
+      <p>
+        Max characters limit:
+        <span id="max-limit">XXX</span>
+      </p>
+      <p>
+        You have entered
+        <span id="entered-chars-num">0</span>
+        characters
+      </p>
+      <p>
+        <span id="chars-left"></span>
+        characters left.
+      </p>
+    </form>
+  </body>
 </html>

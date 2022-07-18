@@ -32,3 +32,13 @@ textarea {
   width: 80%;
   height: 10rem;
 }
+
+#max-limit-reached {
+  font-weight: bold;
+  color: #ff0000;
+  display: none;
+}
+
+#max-limit-reached.visible {
+  display: block;
+}

@@ -16,16 +16,19 @@
       <textarea id="textarea"></textarea>
       <p>
         Max characters limit:
-        <span id="max-limit">XXX</span>
+        <span id="max-limit"></span>
       </p>
       <p>
         You have entered
         <span id="entered-chars-num">0</span>
-        characters
-      </p>
-      <p>
+        characters (
         <span id="chars-left"></span>
-        characters left.
+        characters left).
+      </p>
+      <p id="max-limit-reached">
+        You have reached max character limit! Press
+        <a href="#" id="reset" title="reset">&laquo; here &raquo;</a>
+        to reset!
       </p>
     </form>
   </body>
